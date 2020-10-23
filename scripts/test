@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+export PYTHONDONTWRITEBYTECODE=1
+set -e
+
+cd /app
+
+flake8 . --statistics --count
+py.test -vvvv --color=yes --cov-config .coveragerc --cov=. tests/

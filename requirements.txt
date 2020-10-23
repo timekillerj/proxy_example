@@ -1,0 +1,9 @@
+tornado==6.0.4
+tornado_http_auth
+
+# dev requirements
+flake8==3.4.1
+flake8-junit-report==2.1.0
+pytest==3.2.1
+pytest-cov==2.5.1
+line_profiler==2.0
